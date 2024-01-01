@@ -1,0 +1,59 @@
+body {
+    background-image: url("Images/background3.jpg");
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    height: 100vh;
+    overflow: none;
+}
+
+.shelf div {
+    /* every div in class of shelf */
+    display: inline-block;
+
+
+}
+
+.shelf {
+    display: flex;
+    vertical-align: top;
+    height: 150px;
+    background-image: url("Images/shelf.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    height: 60vh;
+    width: 60vw;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28vh;
+}
+
+#audio {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.shelf .medium {
+    width: 150px;
+}
+
+.shelf .small {
+    width: 70px;
+}
+
+.shelf .large {
+    width: 200px;
+}
+
+.shelf .considerable {
+    width: 120px;
+}

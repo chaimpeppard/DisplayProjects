@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+
+#board{
+/* background-color:rgb(170, 155, 255); */
+border-top: 15px solid skyblue;
+border-bottom: 15px solid sandybrown;
+
+/*border-top: 5px solid skyblue   THIS does work, because we needed to add an extra semicolon*/
+
+}
